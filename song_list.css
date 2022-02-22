@@ -1,0 +1,40 @@
+songlist { 
+    display:table; 
+    font-size:14px; 
+    margin:8px; 
+    font-family: Verdana; 
+    width: 100%;
+    background-color:black;
+    background-image: url("song\ art.jpg");
+    background-size: 270px;
+} 
+
+coverband {
+    font-family: "Lucida Console";
+    font-size:28px; 
+    margin: 8px;
+    padding:10px;
+    color: white;
+}
+song{ 
+    display:table-row; 
+    text-align:center; 
+    border: 1px solid rgb(40, 174, 192);  
+    background-color:rgb(147, 241, 253); 
+    font-family: "Lucida Console";
+}
+
+headings { 
+    display: table-cell; 
+    border: solid 1px; 
+    width: 25%;
+    padding:8px;
+    background-color:rgb(97, 161, 140); 
+}
+
+name, genre, year, artist { 
+    padding:15px;
+    display: table-cell; 
+    border: solid 1px; 
+    width: 25%;
+}
